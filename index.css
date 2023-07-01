@@ -226,7 +226,7 @@ input [type="radio"] {
 }
 
 .transperent-div {
-  z-index: 10;
+  z-index: -1;
   width: 100%;
   height: 100vh;
   position: absolute;
@@ -555,13 +555,57 @@ input:checked ~ .checkmark {
   height:40px ;
   padding-top:12px ;
   margin: auto;
-  margin-top: 75px;
+  margin-top: 28px;
   background-color: black;
   color: red;
   font-size: 25px;
   text-align: center;
 }
 
+.contact{
+  font-family: Avenir;
+  color: white;
+  margin-left: 138px;
+  font-size: 28px;
+}
+
+.ready{
+  line-height: 60px;
+  text-align: center;
+  font-size: 48px;
+  font-family: Avenir Black;
+}
+
+.drop{
+  background-color: #efefef;
+  height: 52px;
+  width: 316px;
+  margin-left: -95px;
+  padding-left: 10px;
+}
+.name{
+  margin-left: 202px;
+   font-size: 16px;
+}
+
+.email{
+  margin-left: 321px;
+   font-size: 16px;
+}
+.people{
+  color: white;
+  text-align: center;
+  font-size: 75px;
+  font-family: Avenir;
+}
+
+.oo{
+  color: white;
+  margin-left:780px;
+  margin-top: -237px;
+  font-size: 30px;
+  font-family: Avenir;
+}
 .shoW_index{
   z-index: 15;
   position: absolute;
@@ -664,4 +708,15 @@ input:checked ~ .checkmark {
   margin-left: -312px;
   text-align: center;
   font-family: "Avenir";
+}
+
+.fut1{
+  color: red;
+   display: flex;
+  width: 1320px;
+  padding-top: 20px;
+   height: 120px;
+   margin-left: -20px;
+   background-color: #1A1C1B;
+  padding-left: 50px;
 }
