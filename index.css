@@ -719,4 +719,5 @@ input:checked ~ .checkmark {
    margin-left: -20px;
    background-color: #1A1C1B;
   padding-left: 50px;
+  line-height: 30px;
 }
